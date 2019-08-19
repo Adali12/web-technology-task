@@ -1,11 +1,11 @@
 require 'cgi'
 cgi = CGI.new
 cgi.out("type"=>"text/html","charset"=>"UTF-8"){
-  receive = cgi['goya']
+  receive1=cgi['goya1']
   "<html>
     <body>
-      <p><b><u>The list of information not equal to this 自家消費 </u></b></p>
-      #{receive}
+      <p><b><u> function that give us  poor quality  equal to  false </u></b></p>
+      #{receive1}
     </body>
    </html>   
   "

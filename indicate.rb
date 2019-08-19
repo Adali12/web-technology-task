@@ -1,4 +1,3 @@
-
 require 'cgi'
 
 cgi = CGI.new

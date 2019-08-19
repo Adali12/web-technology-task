@@ -1,6 +1,4 @@
- 
 require 'pg'
-
 connection = PG::connect(dbname: "goya")
 connection.internal_encoding = "UTF-8"
 begin
